@@ -56,11 +56,10 @@ const SearchBox = ({
     <Box sx={{ width: "inherit" }}>
       <Box
         sx={{
-          display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
           pl: 2,
-          display: { xs: "block", sm: "none" },
+          display: { xs: "flex", sm: "none" },
         }}
       >
         <ResultCounts computedData={computedData} />
